@@ -7,14 +7,16 @@ console.log(data)
 export default function App() {
   return (
     <div className="canvas">
-      <TravelList />
+      <section>
+        <TravelList />
+      </section>
     </div>
   );
 }
 
 function TravelList() {
   return (
-    <div>
+    <div className="canvas">
       <Travel />
     </div>
   )
