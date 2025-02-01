@@ -18,57 +18,53 @@ img {
 }
 
 .container {
-  width: 80%;
-  border: 2px solid black;
+  width: 90%;
+  /* border: 1px solid black; */
+  border-radius: 5px 5px 0 0;
+  font-family: 'Inter', sans-serif;
 }
 
 .container-img {
+  border-radius: 5px 5px 0 0;
   object-fit: cover;
+}
+
+.info-container {
+  padding: 15px;
 }
 
 .container h1 {
   font-size: 25px;
-  margin-bottom: 15px;;
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
-.container h2 {
+div h2 {
   display: inline-block;
-  font-size: 10px;
-}
-
-.location-style {
   text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-left: 10px;
-  margin-bottom: 8px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
-}
-
-.container h3 {
-  font-size: 12px;
-}
-
-a {
+  color: #2B283A;
+  letter-spacing: 1.5px;
   margin-left: 10px;
-  font-size: 12px;
 }
 
-.info-container {
-  width: 305px;
-  height: 178px;
-  padding: 15px;
+div a {
+  margin-left: 15px;
+}
+
+div h3 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+div p {
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .location-img {
   width: 15px;
   height: 15px;
-}
-
-.para-container {
-  width: 280px;
-  height: 47px;
-  font-size: 11px;
-  margin-top: 10px;
 }
 
