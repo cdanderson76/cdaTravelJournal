@@ -22,7 +22,7 @@ img {
 
 .container {
   display: flex;
-  width: 400px;
+  width: 360px;
   height: 178px;
   border: 2px solid black;
 }
