@@ -16,13 +16,21 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px 0;
+  background-color: #ffffff71;
+}
+
+.canvas-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 25px;
   padding: 20px 0;
-  background-color: #ffffff98;
 }
 
 .travel-journal {
-  width: 100%;
+  width: 90%;
   font-family: 'Inter', sans-serif;
 }
 

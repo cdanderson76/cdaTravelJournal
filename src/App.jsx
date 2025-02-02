@@ -25,7 +25,8 @@ function Header() {
 
 function TravelList() {
   return (
-    <div className="canvas">
+    // WHOS THE CANVAS???
+    <div className="canvas-list">
       {data.map(place => {
         return (
           <Travel key={place.title}
