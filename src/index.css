@@ -78,8 +78,9 @@ div h2 {
 }
 
 div a {
-  margin-left: 15px;
+  display: block;
   font-size: 14px;
+  margin-top: 15px;
 }
 
 div h3 {

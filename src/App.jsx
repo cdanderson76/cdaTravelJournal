@@ -60,7 +60,7 @@ function Travel({title,
       <div className="info-container">
         <span>
           <img src={locationImg} 
-             alt=""  
+             alt="image of a location pin"  
              className="location-img"
           />
         </span>
