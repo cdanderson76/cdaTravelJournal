@@ -16,8 +16,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
-  background-color: #ffffff71;
+  padding: 1.25rem 0;
+  background-color: #F2F2F2;
 }
 
 .canvas-list {
@@ -25,18 +25,20 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 25px;
-  padding: 20px 0;
+  gap: 1.56rem;
+  padding: 1.25rem 0;
+  background-color: #FFFFFF;
 }
 
 .travel-journal {
   width: 90%;
   font-family: 'Inter', sans-serif;
+  color: #2B283A;
 }
 
 .container {
   width: 95%;
-  border-radius: 5px 5px 0 0;
+  border-radius: 0.31rem 0.31rem 0 0;
   font-family: 'Inter', sans-serif;
   background-color: #FFFFFF;
   -webkit-box-shadow: 0px 10px 15px -3px #9C9C9C; 
@@ -49,15 +51,15 @@ img {
   align-items: center;
   width: 100%;
   color: white;
-  font-size: 25px;
+  font-size: 1.25rem;
   letter-spacing: -1px;
   background-color: #F55A5A;
-  padding: 16px 0;
+  padding: 1rem 0;
 }
 
 .travel-journal-letters {
-  font-size: 18px;
-  margin-left: 8px;
+  font-size: 1.125rem;
+  margin-left: 0.5rem;
 }
 
 .container-img {
@@ -65,43 +67,79 @@ img {
 }
 
 .info-container {
-  padding: 15px 15px 30px 15px;
+  padding: 0.94rem 0.94rem 1.9rem 0.94rem;
 }
 
 .container h1 {
-  font-size: 25px;
-  margin-bottom: 15px;
-  margin-top: 20px;
+  font-size: 1.56rem;
+  margin-bottom: 0.94rem;
+  margin-top: 1.25rem;
 }
 
 div h2 {
   display: inline-block;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 1.1rem;
   font-weight: 400;
   color: #2B283A;
   letter-spacing: 1.5px;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 div a {
   display: block;
-  font-size: 14px;
-  margin-top: 15px;
+  font-size: 0.875rem;
+  margin-top: 0.94rem;
 }
 
 div h3 {
-  font-size: 15px;
-  margin-bottom: 15px;
+  font-size: 0.94rem;
+  margin-bottom: 0.94rem;
 }
 
 div p {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.5;
 }
 
 .location-img {
-  width: 15px;
-  height: 15px;
+  width: 0.94rem;
+  height: 0.94rem;
 }
 
+@media(min-width: 1100px) {
+
+  .travel-journal {
+    width: 40%;
+  }
+
+  .canvas-list {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    -webkit-box-shadow: 0px 10px 15px -3px #9C9C9C; 
+    box-shadow: 0px 10px 15px -3px #9C9C9C;
+  }
+
+  .container-img {
+    width: 30%;
+  }
+
+  div a {
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .container h1 {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+  div h2 {
+    font-size: 13px;
+  }
+}
