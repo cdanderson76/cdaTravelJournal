@@ -11,7 +11,7 @@ export default [
 
     {
         title: "NYC 🌆",
-        location: "New York City",
+        location: "New York",
         googleMapsUrl: "https://shorturl.at/5L7Wx",
         startDate: "9 May, 2019",
         endDate: "13 May, 2019",
