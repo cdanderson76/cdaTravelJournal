@@ -11,22 +11,20 @@ img {
    height: auto;
 }
 
-.canvas {
+.canvas, .canvas-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1.25rem 0;
+}
+
+.canvas {
   background-color: #F2F2F2;
 }
 
 .canvas-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 1.56rem;
-  padding: 1.25rem 0;
   background-color: #FFFFFF;
 }
 
@@ -125,21 +123,21 @@ div p {
     box-shadow: 0px 10px 15px -3px #9C9C9C;
   }
 
-  .container-img {
+  .container-img { 
     width: 30%;
   }
 
   div a {
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 0.94rem;
   }
 
   .container h1 {
-    margin-top: 5px;
-    font-size: 20px;
+    margin-top: 0.313rem;
+    font-size: 1.25rem;
   }
 
   div h2 {
-    font-size: 13px;
+    font-size: 0.81rem;
   }
 }
