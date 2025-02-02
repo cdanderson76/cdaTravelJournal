@@ -13,24 +13,51 @@ img {
 
 .canvas {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 25px;
   padding: 20px 0;
+  background-color: #ffffff98;
+}
+
+.travel-journal {
+  width: 90%;
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
   width: 90%;
-  /* border: 1px solid black; */
   border-radius: 5px 5px 0 0;
   font-family: 'Inter', sans-serif;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 15px -3px #9C9C9C; 
+  box-shadow: 0px 10px 15px -3px #9C9C9C;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  letter-spacing: -1px;
+  background-color: #F55A5A;
+  padding: 16px 0;
+}
+
+.travel-journal-letters {
+  font-size: 18px;
+  margin-left: 8px;
 }
 
 .container-img {
-  border-radius: 5px 5px 0 0;
   object-fit: cover;
 }
 
 .info-container {
-  padding: 15px;
+  padding: 15px 15px 30px 15px;
 }
 
 .container h1 {
