@@ -28,7 +28,7 @@ img {
 
 .container {
   width: 90%;
-  min-width: 400px;
+  min-width: 350px;
   border-radius: 5px 5px 0 0;
   font-family: 'Inter', sans-serif;
   background-color: #FFFFFF;
@@ -79,6 +79,7 @@ div h2 {
 
 div a {
   margin-left: 15px;
+  font-size: 14px;
 }
 
 div h3 {
