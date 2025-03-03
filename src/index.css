@@ -106,10 +106,29 @@ div p {
   height: 0.94rem;
 }
 
+.btn {
+  width: 100%;
+  background-color: #F55A5A;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  border: none;
+  padding: 0.6em 0;
+  margin-top: 1.2em;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #e95c5c;
+}
+
 @media(min-width: 1100px) {
 
   .travel-journal {
-    width: 40%;
+    /* width: 40%; */
+    width: 90%;
+    max-width: 63.56rem;
   }
 
   .canvas-list {

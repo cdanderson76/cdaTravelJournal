@@ -6,7 +6,10 @@ export default function Travel({title,
                                 startDate,
                                 endDate,
                                 description,
-                                map}) {
+                                map,
+                                removeTravel,
+                                id}) {
+
 return (
     <div className="container">
       <img src={image}
@@ -28,6 +31,7 @@ return (
               {description}
             </p>
           </div>
+        <button className='btn' onClick={() => removeTravel(id)}>Not Interested</button>
       </div>
     </div>
   )

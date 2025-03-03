@@ -1,10 +1,15 @@
-import data from "../data";
 import Travel from "./Travel";
 
-export default function TravelList() {
+export default function TravelList({data, setTravel, travel}) {
+
+  function removeTravel(id) {
+    const newTravel = travel.filter(tour => tour.id !== id);
+    setTravel(newTravel);
+  };
+
   return (
     <div className="canvas-list">
-      {data.map(place => {
+      {travel.map(place => {
         return (
           <Travel key={place.title}
                   title={place.title}
@@ -15,6 +20,9 @@ export default function TravelList() {
                   description={place.description}
                   imageUrl={place.imageUrl}
                   map={place.googleMapsUrl}
+                  id={place.id}
+                  setTravel={setTravel}
+                  removeTravel={removeTravel}
           />
         )
       })}
