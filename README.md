@@ -2,7 +2,7 @@
 
 This is an HTML, CSS, project that was made available by Scrimba.  It challenges you to use external data and CSS in order to build out a list of travel destinations that you've visited in the past.
 
-![Image](https://github.com/user-attachments/assets/c15f56d9-4649-4627-a4fc-04b5515881ad)
+![Image](https://github.com/user-attachments/assets/a6698b23-311f-425b-a606-6a67bda08339)
 
 <h2>What are you most proud of, and what would you do differently next time?</h2>
 
