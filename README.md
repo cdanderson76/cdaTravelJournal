@@ -1,8 +1,14 @@
 <h1>Travel Journal</h1>
 
-This is an HTML, CSS, project that was made available by Scrimba.  It challenges you to use external data and CSS in order to build out a list of travel destinations that you've visited in the past.
+This is an HTML, CSS, project that was made available by Scrimba.  It challenges you to use external data and CSS in order to build out a list of travel destinations that you've visited in the past.  It also references the google maps link that takes you to the listed destination.
 
 ![Image](https://github.com/user-attachments/assets/a6698b23-311f-425b-a606-6a67bda08339)
+
+<h2>Additonal Features</h2>
+
+Custom data for destinations
+Button that removes a destination from the page
+Mobile and desktop responsiveness
 
 <h2>What are you most proud of, and what would you do differently next time?</h2>
 
