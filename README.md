@@ -6,7 +6,7 @@ This is an HTML, CSS, project that was made available by Scrimba.  It challenges
 
 <h2>Additonal Features</h2>
 
-<p>Custom data for destinations</p>>
+<p>Custom data for destinations</p>
 <p>Button that removes a destination from the page</p>
 <p>Mobile and desktop responsiveness</p>
 
