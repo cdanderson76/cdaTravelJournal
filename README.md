@@ -6,9 +6,9 @@ This is an HTML, CSS, project that was made available by Scrimba.  It challenges
 
 <h2>Additonal Features</h2>
 
-Custom data for destinations
-Button that removes a destination from the page
-Mobile and desktop responsiveness
+<p>Custom data for destinations</p>>
+<p>Button that removes a destination from the page</p>
+<p>Mobile and desktop responsiveness</p>
 
 <h2>What are you most proud of, and what would you do differently next time?</h2>
 
